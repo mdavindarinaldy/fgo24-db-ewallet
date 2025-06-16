@@ -1,4 +1,4 @@
-# Perpustakan - ERD
+# E-Wallet - ERD
 
 This project was made by Muhammad Davinda Rinaldy in Training Program held by Kodacademy to make ERD of an E-Wallet, using mermaid tool.
 
@@ -47,7 +47,6 @@ erDiagram
     top_up {
         string id_top_up PK
         decimal nominal
-        date top_up_date
     }
 
     user ||--o{ transaction_expense : do
